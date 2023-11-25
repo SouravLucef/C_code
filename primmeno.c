@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,c=0;
-    printf("Enter the number");
+    printf("Enter the number: ");
     scanf("%d",&n);
     if(n<0){
         printf("you have entered a negative number");
@@ -16,10 +16,10 @@ int main()
 
         }
         if(c==2){
-            printf("the number is prime number");
+            printf("the number %d is prime number",n);
         }
         else{
-        printf("The number is non prime number");
+        printf("The number %d is non prime number",n);
         }
 
     }
