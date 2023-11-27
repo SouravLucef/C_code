@@ -5,10 +5,10 @@ int main()
     printf("Enter num :");
     scanf("%d",&n);
 
-    for (i=n;i>0;i--){
-        r=n%10;
+    for (i=n;i>0;){
+        r=i%10;
         S=S*10+r;
-        n=n/10;
+        i=i/10;
 
 
     }
