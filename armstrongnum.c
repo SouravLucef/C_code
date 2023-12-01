@@ -8,7 +8,7 @@ void main()
     for (i=n;i>0;)
     {
         r=i%10;
-        s=s+(r*r);
+        s=s+(r*r*r);
         i=i/10;
     }
 
