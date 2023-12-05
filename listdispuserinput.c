@@ -1,10 +1,10 @@
 #include <stdio.h>
 void main()
 {
-    int n,i, data[n];
+    int n,i;
     printf("Enter the num of elements : \n");
-    scanf("%d",n);
-
+    scanf("%d",&n);
+    int data[n];
     printf("Enter the elements : \n");
     for(i=0;i<n;i++)
     {
